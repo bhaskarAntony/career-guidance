@@ -5,6 +5,7 @@ import Marquee from '../../components/marquee/Marquee'
 import Class from '../../components/class/Class'
 import Faq from '../../components/Faq/Faq'
 import Works from '../../components/works/Works'
+import Time from '../../components/time/Time'
 
 function Home() {
   return (
@@ -12,7 +13,8 @@ function Home() {
       <Hero/>
       <Marquee/>
       <Class/>
-      <Works/>
+      <Time/>
+      {/* <Works/> */}
       <Faq/>
     </section>
   )
