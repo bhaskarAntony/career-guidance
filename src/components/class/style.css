@@ -1,0 +1,31 @@
+.class{
+
+}
+.class-card1{
+    background: url(https://assets.website-files.com/64be60f8a70cdf171c303bd8/64be640db40e27828d1e6ded_Feature%20background%201.png) no-repeat center;
+    background-size: cover;
+}
+.class-card2{
+    background: url(https://assets.website-files.com/64be60f8a70cdf171c303bd8/64be640dca5cb4b0be287012_Feature%20background%202.png) no-repeat center;
+    background-size: cover;
+    color: #000 !important;
+}
+.class-card3{
+    background: url(https://assets.website-files.com/64be60f8a70cdf171c303bd8/64be640d9bb24225db967c94_Feature%20background%203.png) no-repeat center;
+    background-size: cover;
+    color: #000 !important;
+}
+.class-card4{
+    background: url(https://assets.website-files.com/64be60f8a70cdf171c303bd8/64be640d7010b67112fa8854_Feature%20background%204.png) no-repeat center;
+    background-size: cover;
+}
+.class-card{
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+}
