@@ -77,8 +77,8 @@ function Works() {
         {
             data.map((item, index)=>(
                 <div className="col-12 col-md-4 border">
-                    <div className="work-card text-white mb-3">
-                        <h1 className="display-1 fw-bold heading">{index+1}</h1>
+                    <div className="work-card text-white mb-3 ">
+                        <h1 className="display-1 fw-bold gradient-text">{index+1}</h1>
                         <h1 className="fs-5 fw-bold gradient-text">{item.titlle}</h1>
                        <ul>
                         {

@@ -13,3 +13,9 @@
     transform: rotate(-90deg);
     width: 100px;
 }
+@media (max-width:768px){
+    .btns a{
+        width: 100% !important;
+        display: block;
+    }
+}

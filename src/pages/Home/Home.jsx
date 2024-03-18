@@ -11,8 +11,8 @@ function Home() {
     <section className='home'>
       <Hero/>
       <Marquee/>
-      <Works/>
       <Class/>
+      <Works/>
       <Faq/>
     </section>
   )
