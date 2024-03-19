@@ -1,3 +1,35 @@
 .home{
     background-color: #0c0c0c;
 }
+.book-btns{
+    text-align: center;
+    margin: 30px 0px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.book-btns a{
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    box-shadow: inset 0px 0px 10px #3df6a37e, inset 0px 0px 20px #00ff8c8e;
+    color: #fff;
+    border: 2px solid #00ff8c;
+    font-size: 1.2rem;
+    min-width: 150px;
+}
+.book-btns a:nth-child(1){
+    background-color: transparent;
+    box-shadow: inset 0px 0px 10px #a33df63c, inset 0px 0px 20px #6a00ff8e;
+    color: #fff;
+    border: 2px solid #6a00ff8e;
+}
+.book-btns a:nth-child(1):hover{
+    background-color: #6a00ff8e;
+    box-shadow:  0px 0px 10px #6a00ff8e,  0px 0px 20px #6a00ff8e;
+}
+.book-btns a:nth-child(2):hover{
+    background-color: #00ff8c;
+    box-shadow:  0px 0px 10px #3df6a37e,  0px 0px 20px #3df6a37e;
+}
