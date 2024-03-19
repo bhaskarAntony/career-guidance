@@ -24,3 +24,10 @@
     min-height: 200px;
     margin-bottom: 20px;
 }
+.last-card .accordion-header{
+    background: linear-gradient(45deg, #7311d5, #b045e5);
+}
+.last-card .time-tag{
+    background: #fff !important;
+    color: #000;
+}

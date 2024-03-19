@@ -92,7 +92,7 @@ function Time() {
             <div class="accordion" id="accordionExample">
       {
         data.map((item, index)=>(
-            <div class="accordion-item">
+            <div class={`accordion-item ${index==data.length-1?'last-card':null}`}>
             <h2 class="accordion-header pt-4">
                 <h1 className="fs-6 time-tag p-1"><i class="bi bi-alarm fs-5"></i> {item.time}min</h1>
               <button class="accordion-button border-0" type="button" data-bs-toggle="collapse" data-bs-target={`#${index}`} aria-expanded="true" aria-controls="collapseOne">
